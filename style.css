@@ -1,0 +1,83 @@
+body {
+    font-family: sans-serif;
+}
+header{
+    background-image: linear-gradient(#FFA901,#74370A)
+}
+header h1{
+    text-align: center;
+}
+nav a{
+    background-color:orange;
+    border-radius:10px;
+    text-decoration: none;
+    padding:10px;
+    font-size:25px;
+}
+nav a:hover{
+    background-color: gray;
+    color: #ffffff;
+}
+main{
+    background-color:rgb(255, 255, 255);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    text-align: center;
+}
+section{
+  display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+.action{
+    width:415px;
+    height:195px;
+}
+footer{
+    background-color: #FFA901;
+}
+.tik-tok{
+    width:84px;
+    height:84px;
+    border-radius:52px;
+}
+.instagram{
+    width:78px;
+    height:78px;
+    border-radius:52px;
+}
+.footer{
+    text-align: center;
+}
+article{
+    text-align: center;
+    background-color: #FFA901;
+    padding: 20px;
+    border-radius:50px;
+}
+.product{
+    padding:30px;
+    margin:20px;
+}
+.product:hover{
+    color: white;
+    background-color: gray;
+}
+.telegram{
+    width:84px;
+    height:84px;
+    border-radius:52px;
+}
+.telegram:hover{
+    border:10px solid gray;
+}
+.instagram:hover{
+    border:10px solid gray;
+}
+.tik-tok:hover{
+    border:10px solid gray;
+}
